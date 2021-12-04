@@ -1,3 +1,0 @@
-# ori
-# dclothe
-# tiendaropa
