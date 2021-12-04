@@ -411,7 +411,7 @@
 		var $this = $(this),
 		finalDate = $(this).data('countdown');
 		$this.countdown(finalDate, function (event) {
-			$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown__time">%D</span><span class="single-countdown__text">Days</span></div><div class="single-countdown"><span class="single-countdown__time">%H</span><span class="single-countdown__text">Hours</span></div><div class="single-countdown"><span class="single-countdown__time">%M</span><span class="single-countdown__text">Minutes</span></div><div class="single-countdown"><span class="single-countdown__time">%S</span><span class="single-countdown__text">Seconds</span></div>'));
+			$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown__time">%D</span><span class="single-countdown__text">Dias</span></div><div class="single-countdown"><span class="single-countdown__time">%H</span><span class="single-countdown__text">Horas</span></div><div class="single-countdown"><span class="single-countdown__time">%M</span><span class="single-countdown__text">Minutos</span></div><div class="single-countdown"><span class="single-countdown__time">%S</span><span class="single-countdown__text">Segundos</span></div>'));
 		});
 	});
 
